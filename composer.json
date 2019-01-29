@@ -1,0 +1,23 @@
+{
+    "name": "iamacodemonkey/rebel-flight-path",
+    "description": "Flight path through Death Star defences",
+    "type": "package",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.3"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Joe Sward",
+            "email": "joe@iamacodemonkey.co.uk",
+            "homepage": "https://iamacodemonkey.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "iamacodemonkey\\": "src/"
+        }
+    }
+}
