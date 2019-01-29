@@ -76,7 +76,7 @@ class MapMaker
 			$lastMove = end(self::$mapData);
 
 			// return the complete url with parameters
-			return $url.'?'.$name.'&path='.$lastMove['path'];
+			return $url.'?name='.$name.'&path='.$lastMove['path'];
 
 		} else {
 
