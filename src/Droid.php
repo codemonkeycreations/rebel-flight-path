@@ -42,7 +42,6 @@ class Droid {
 			// save data for processing
 			$this->message = $data->message;
 			$this->map = $data->map;
-			$this->path = $path;
 
 		} catch (ClientException $e) {
 
@@ -54,8 +53,6 @@ class Droid {
 			$this->responseCode = $responseCode;
 			$this->message = $data->message;
 			$this->map = $data->map;
-			$this->path = $path;
-
 
 		} catch (\Exception $e) {
 

@@ -128,7 +128,7 @@ class MapMaker
 	{
 		
 		// if we have no data, we are at the beginning - let's try moving forwards
-		if (count(self::$mapData) == 0) {
+		if (!is_array(self::$mapData)) {
 
 			$nextMove = 'f';
 		
