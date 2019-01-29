@@ -26,6 +26,12 @@ It will automatically include all required packages
     }
 }
 ```
+Tell composer to install the dependencies:
+
+```
+composer install 
+
+```
 
 Create an index.php file with the following code:
 
