@@ -1,6 +1,6 @@
 # rebel-flight-path
 
-Composer library will find the path through the Imperial Defenses.
+Composer library to find the path through the Imperial Defenses.
 
 ## Requirements
 
@@ -30,7 +30,6 @@ Tell composer to install the dependencies:
 
 ```
 composer install 
-
 ```
 
 Create an index.php file with the following code:
@@ -51,7 +50,6 @@ $validResponseCodes = array('finished' => 200, 'lost' => 410, 'crashed' => 417);
 $pathThroughMines = $mapMaker->createMap($url, $name, $validResponseCodes);
 
 print_r($pathThroughMines);
-
 ```
 
 Visit page in a web browser.  The path (complete url) to make it to the end of the minefield will be displayed.
